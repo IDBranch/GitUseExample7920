@@ -12,6 +12,7 @@
 		C0974CC2252509F3005BCD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0974CC0252509F3005BCD5D /* Main.storyboard */; };
 		C0974CC4252509F3005BCD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0974CC3252509F3005BCD5D /* Assets.xcassets */; };
 		C0974CC7252509F3005BCD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0974CC5252509F3005BCD5D /* LaunchScreen.storyboard */; };
+		C0A6F8D62527AD8A00942592 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C0A6F8D52527AD8A00942592 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C0974CC3252509F3005BCD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0974CC6252509F3005BCD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0974CC8252509F3005BCD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A6F8D52527AD8A00942592 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C0974CB0252509F3005BCD5D = {
 			isa = PBXGroup;
 			children = (
+				C0A6F8D42527AD4200942592 /* Git */,
 				C0974CBB252509F3005BCD5D /* GitUseExample7920 */,
 				C0974CBA252509F3005BCD5D /* Products */,
 			);
@@ -62,6 +65,14 @@
 				C0974CC8252509F3005BCD5D /* Info.plist */,
 			);
 			path = GitUseExample7920;
+			sourceTree = "<group>";
+		};
+		C0A6F8D42527AD4200942592 /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				C0A6F8D52527AD8A00942592 /* .gitignore */,
+			);
+			path = Git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A6F8D62527AD8A00942592 /* .gitignore in Resources */,
 				C0974CC7252509F3005BCD5D /* LaunchScreen.storyboard in Resources */,
 				C0974CC4252509F3005BCD5D /* Assets.xcassets in Resources */,
 				C0974CC2252509F3005BCD5D /* Main.storyboard in Resources */,
